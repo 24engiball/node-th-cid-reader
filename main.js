@@ -241,12 +241,12 @@ let ccc = 255;
                     if (cmdIndex < 20) {
                         ++cmdIndex;
                         inGetImage = true;
-                    console.log(`Response image1 do ------------------clear ${cmdIndex}`)
+                   // console.log(`Response image1 do ------------------clear ${cmdIndex}`)
                         readImageOneLine(card);
                     } else {
                        let mImgTemp = imgTemp//.replace('ICAg','RFJEUk');// .toString('base64');
 
-                         console.log(`Response image1 ${mImgTemp} ------------------clear ${cmdIndex}`)
+                        // console.log(`Response image1 ${mImgTemp} ------------------clear ${cmdIndex}`)
 
                         inGetImage = false;
                         var stream = fs.createWriteStream("my_file.txt");
