@@ -17,15 +17,14 @@
   "author": "GitHub",
   "license": "CC0-1.0",
   "devDependencies": {
-    "electron": "~1.6.2",
-    "electron-rebuild": "^1.5.11"
+    "electron": "^3.0.0",
+    "electron-rebuild": "^1.8.2"
   },
   "dependencies": {
-    "iconv": "^2.2.3",
-    "jschardet": "^1.4.2",
+    "iconv": "^2.3.0",
+    "jschardet": "^1.6.0",
     "legacy-encoding": "^3.0.0",
-    "npm": "^5.0.3",
-    "pcsclite": "^0.5.0",
-    "smartcard": "^1.0.20"
+    "pcsclite": "^0.6.0",
+    "smartcard": "^1.0.23"
   }
 }

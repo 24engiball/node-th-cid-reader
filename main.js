@@ -234,7 +234,7 @@ let ccc = 255;
              //       response =response.slice(0,-2);
                   //  if (mImgTemp != 'kAA=') {
              //   if(checkMod==0 || (checkMod%2==1))
-                        imgTemp = imgTemp + response.toString('base64')//.replace('kAA=','');//.slice(0,-2).toString('base64');
+                        imgTemp = imgTemp + response.toString('base64').replace('kAA=','');//.slice(0,-2).toString('base64');
                     checkMod++;
                        // imgTemp=imgTemp.slice(0,-2);
                  //  }
